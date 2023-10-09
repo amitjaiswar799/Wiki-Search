@@ -7,8 +7,7 @@ import { WikiSearchService } from './wiki-search.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'WikiSearch1';
-
+  
   constructor(private ws : WikiSearchService){}
 
   searchTerm:any;
