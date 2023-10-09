@@ -1,0 +1,6 @@
+<div class="box">
+    <form (submit)="onSubmit($event)">
+        <input class="input is-rounded" type="text" placeholder="Search"
+           #term (input)="onSearchTextChange(term.value)">
+    </form>
+</div>
